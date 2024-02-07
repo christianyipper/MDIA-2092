@@ -1,0 +1,26 @@
+/* Heading Styles */
+h1 {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: small;
+}
+
+/* Text Styles */
+p {
+    font-family: sans-serif;
+    font-size: x-small;
+}
+
+a {
+    font-family: sans-serif;
+    font-size: x-small;
+}
