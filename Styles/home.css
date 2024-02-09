@@ -1,3 +1,8 @@
+* {
+    margin-top: 0;
+    margin-left: 0;
+}
+
 .container-home {
     position: relative;
     display: flex;
@@ -6,6 +11,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 0%;
 }
 
 .content {
@@ -110,6 +116,7 @@
     justify-content: center;
     width: 100%;
     gap: 4%;
+    margin-bottom: 40px;
 }
 
 .product-link {
