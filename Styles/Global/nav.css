@@ -2,6 +2,9 @@
     margin-top: 0;
     margin-left: 0;
 }
+.body {
+    background-color: #f2f2f2;
+}
 
 .nav {
     display: flex;
@@ -12,7 +15,7 @@
     position: fixed;
     width: 100%;
     height: 64px;
-    background-color: aquamarine;
+    background-color: #d9bba9;
     margin-top: 0%;
     margin-left: 0%;
     z-index: 100;
@@ -20,6 +23,7 @@
 .nav-container {
     width: 100%;
     max-width: 1140px;
+    height: 64px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -31,7 +35,7 @@
 
 .nav-left {
     position: relative;
-    width: 50%;
+    width: 25%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -47,15 +51,20 @@
     margin-right: 40%;
 }
 .nav-content {
+    position: relative;
+    width: 50%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 40px;
 }
 
 .nav-right {
     position: relative;
-    width: 50%;
+    width: 25%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
