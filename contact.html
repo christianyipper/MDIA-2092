@@ -92,7 +92,7 @@
                     <br>
 
                     <div class="d-grid gap-2 ">
-                        <button class="btn btn-primary bg-dark border-dark" type="button">Submit</button>
+                        <button class="btn btn-primary bg-dark border-dark" type="button" onclick="myComment()" >Submit</button>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
 
                 <div class="input-group mb-3 ">
                     <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <span class="input-group-text bg-dark border-dark text-white" id="basic-addon2">submit</span>
+                    <span class="input-group-text bg-dark border-dark text-white" id="basic-addon2" onclick="submitEmail()" style="cursor: pointer;" >submit</span>
                 </div>
             </div>
         </div>
@@ -143,6 +143,8 @@
             </div>
         </div>
     </div>
+
+    <script src="./javascript/contact.js"></script>
 
   </body>
 </html>
