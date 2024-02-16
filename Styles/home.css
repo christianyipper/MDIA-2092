@@ -7,6 +7,7 @@
     justify-content: center;
     width: 100%;
     margin-top: 0%;
+    min-height: 100vh;
 }
 
 .content {
@@ -111,6 +112,7 @@
     width: 100%;
     gap: 1%;
     margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .product-link {
@@ -127,11 +129,46 @@
 }
 .product-name {
     text-decoration: none;
+    color: #d9bba9;
 }
 .price {
     text-decoration: none;
+    color: #d9bba9;
 }
 
 a {
     text-decoration: none;
 }
+
+.form-centre {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.success {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    height: 100vh;
+    width: 50%;
+    background-color: #f2f2f2;
+}
+
+.success-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+

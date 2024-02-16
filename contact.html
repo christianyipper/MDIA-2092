@@ -13,17 +13,17 @@
 
 
   <body>
-    <div class="nav container-fluid">
+    <div class="nav">
         <div class="nav-container">
             <div class="nav-left">
-                <a href="" class="home-link">
-                    <img src="'" alt="" class="home-img">
+                <a href="home.html" class="home-link">
+                    <img src="images/Timeless_Treasures_Logo.png" alt="Timeless Treasures Logo" class="home-img">
                 </a>
             </div>
             <div class="nav-content">
-                <a href="" class="nav-link">Home</a>
-                <a href="" class="nav-link">Shop</a>
-                <a href="" class="nav-link">About</a>
+                <a href="home.html" class="nav-link">Home</a>
+                <a href="product-1.html" class="nav-link">Shop</a>
+                <a href="about.html" class="nav-link">About</a>
             </div>
             <div class="nav-right">
                 <a href="" class="cart-link">
@@ -92,7 +92,7 @@
                     <br>
 
                     <div class="d-grid gap-2 ">
-                        <button class="btn btn-primary bg-dark border-dark" type="button" onclick="submitComment()" >Submit</button>
+                        <a class="btn btn-primary bg-dark border-dark" href="contact-success.html" onclick="submitComment()" >Submit</a>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
 
                 <div class="input-group mb-3 ">
                     <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <span class="input-group-text bg-dark border-dark text-white" id="basic-addon2" onclick="submitEmail()" style="cursor: pointer;" >submit</span>
+                    <a class="input-group-text bg-dark border-dark text-white" href="mail-success.html" id="basic-addon2" onclick="submitEmail()" style="cursor: pointer;" >submit</a>
                 </div>
             </div>
         </div>
@@ -118,17 +118,17 @@
                 <div class="footer-left">
                     <div class="footer-content">
                         <p class="footer-title">Pages</p>
-                        <a href="" class="nav-link">Home</a>
+                        <a href="home.html" class="nav-link">Home</a>
                         <a href="" class="nav-link">Shop</a>
-                        <a href="" class="nav-link">About</a>
+                        <a href="about.html" class="nav-link">About</a>
                     </div>
                 </div>
                 <div class="footer-divider"></div>
                 <div class="footer-mid">
                     <div class="footer-content">
                         <p class="footer-title">Contact</p>
-                        <a href="" class="nav-link">Email Us</a>
-                        <a href="" class="nav-link">Phone</a>
+                        <a href="contact.html" class="nav-link">Email Us</a>
+                        <a href="contact.html" class="nav-link">Business Inquiries</a>
                     </div>
                 </div>
                 <div class="footer-divider"></div>
@@ -142,9 +142,8 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="./javascript/contact.js"></script>
+    <!-- <script src="./javascript/contact.js"></script> -->
 
   </body>
 </html>

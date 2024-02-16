@@ -1,17 +1,20 @@
 /* Heading Styles */
-.h1 {
+h1 {
     font-family: sans-serif;
     font-size: 80px;
+    color: #f2c572;
 }
 
-.h2 {
+h2 {
     font-family: sans-serif;
-    font-size: medium;
+    font-size: 30px;
+    color: #f2c572;
 }
 
-.h3 {
+h3 {
     font-family: sans-serif;
-    font-size: small;
+    font-size: 18px;
+    color: #f2c572;
 }
 
 /* Text Styles */
@@ -24,8 +27,8 @@ p {
 
 a {
     font-family: sans-serif;
-    font-size: x-small;
-    color: #260b01;
+    font-size: 16px;
+    color: #d9bba9;
 }
 
 .nav-link {
@@ -33,5 +36,5 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     text-decoration: none;
-    color: #260b01;
+    /* color: #260b01; */
 }

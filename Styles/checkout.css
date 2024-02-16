@@ -1,0 +1,130 @@
+.container-checkout {
+    padding-top: 64px;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-home {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0%;
+}
+
+.product-table {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 4%;
+    margin-bottom: 40px;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.heading-left {
+    width: 100%;
+    height: 20px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-self: start;
+}
+
+.slider-content {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.product-link {
+    width: 24%;
+    height: auto;
+    text-decoration: none;
+}
+.product-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.product-name {
+    text-decoration: none;
+    color: #d9bba9;
+}
+.price {
+    text-decoration: none;
+    color: #d9bba9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form-centre {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.success {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
+    opacity: 0%;
+    scale: 0%;
+}
+
+.btn:checked .content {
+    opacity: 0%;
+    scale: 100%;
+}
+
+.success-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
