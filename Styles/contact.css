@@ -9,7 +9,21 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  
   body {
     background-color: lightblue;
   }
 }
+    
+  .menu {
+    width: 100%;
+    height: 5px;
+    background-color: #d9bba9;
+    margin: 6px 0;
+}
+
+.menu-wrapper {
+    cursor: pointer;
+    width: 35px;
+}
+
