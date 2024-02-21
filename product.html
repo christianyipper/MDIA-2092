@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Styles/product.css">
+    <link rel="stylesheet" href="Styles/Global/typography.css">
+    <link rel="stylesheet" href="Styles/Global/footer.css">
+
+</head>
+
+<div class="nav">
+    <div class="nav-container">
+        <div class="nav-left">
+            <a href="home.html" class="home-link">
+                <img src="images/Timeless_Treasures_Logo.png" alt="Timeless Treasures Logo" class="home-img">
+            </a>
+        </div>
+        <div class="nav-content">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="product-1.html" class="nav-link">Shop</a>
+            <a href="about.html" class="nav-link">About</a>
+        </div>
+        <div class="menu-wrapper">
+            <div class="menu"></div>
+            <div class="menu"></div>
+            <div class="menu"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-5 col-md-5">
+            <div class="main-image"><img id="thumbnail" src="./images/hiddenshirt.jpg" alt=""> </div>
+            <div class="pic-center"> <img onclick="change_image(this)" src="./images/hiddenshirtDetail1.jpeg" > <img onclick="change_image(this)" src="./images/hiddenshirtDetail2.jpeg"> </div>
+        </div>
+
+        <div class="col-lg-7 col-md-7">
+            <div class="section-heading">
+            <h2 class="title">Hidden T-Shirt</h2>
+            <h6 class="menuh6">$78.00 CAD</h6>
+            <div class="currency-buttons">
+                <button onclick="updatePrice('USD')" style="background-color: #FDF9E8; border: 1px solid #5e442e;">USD</button>
+                <button onclick="updatePrice('CAD')" style="background-color: #FDF9E8; border: 1px solid #5e442e;">CAD</button>
+            </div>
+        </div>
+
+        <div class="section-body">
+            <p>Transport yourself back to the carefree days of the 1980s with this authentic vintage graphic t-shirt. Crafted from soft, breathable cotton, this shirt not only offers comfort but also embodies the essence of retro surf culture.</p>
+            <div class="quantity">
+                <input type="button" id="remove_0" onclick="CalculateTotal(this,0)" value="-" class="inp-pos">
+                <input type="text" placeholder="1" name="quantity" id="quantity_0" onchange="CalculateTotal(this,0)" class="inp-pos" value="1" readonly>
+                <input type="button" id="add_0" onclick="CalculateTotal(this,0)" value="+" class="inp-pos">
+                <button type="button" id="add-to-cart" class="btn btn-lg" data-toggle="modal" data-target="#myModal1" onclick="window.location.href='checkout.html'"><i class="material-icons cart">checkout</i></button>
+            </div>
+            
+            
+            <h3>🏷️Specifications:</h3>
+                <div class="product-info">
+                    <h4>Era:</h4>
+                    <ul>
+                        <li><a href="" class="grey">1980s</a></li>
+                    </ul>
+                </div>
+                <div class="product-info">
+                    <h4>Material:</h4>
+                    <ul>
+                        <li><a href="" class="grey">100% Cotton</a></li>
+                    </ul>
+                </div>
+                <div class="product-info">
+                    <h4>Color:</h4>
+                    <ul>
+                        <li><a href="" class="grey">Light Grey & faded Blue</a></li>
+                    </ul>
+                </div>
+                <div class="product-info">
+                    <h4>Size:</h4>
+                    <ul>
+                        <li><a href="" class="grey">Men's Medium</a></li>
+                    </ul>
+                </div>
+                <div class="product-info">
+                    <h4>Condition:</h4>
+                    <ul>
+                        <li><a href="" class="grey">Vintage, with minor signs of wear consistent with age</a></li>
+                    </ul>
+                </div>
+
+            <h3>🏷️Care Instructions:</h3>
+            <div class="product-info">
+                <ul>
+                    <li><a href="" class="grey">To preserve its vintage appeal, we recommend washing this t-shirt in cold water with like colors and air drying it. Avoid harsh detergents and high heat to maintain its softness and integrity.</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-left">
+            <div class="footer-content">
+                <p class="footer-title">Pages</p>
+                <a href="home.html" class="nav-link">Home</a>
+                <a href="" class="nav-link">Shop</a>
+                <a href="about.html" class="nav-link">About</a>
+            </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-mid">
+            <div class="footer-content">
+                <p class="footer-title">Contact</p>
+                <a href="contact.html" class="nav-link">Email Us</a>
+                <a href="contact.html" class="nav-link">Business Inquiries</a>
+            </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-right">
+            <div class="footer-content">
+                <p class="footer-title">Social</p>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=YOUR_PAGE_URL_HERE" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/intent/tweet?url=YOUR_PAGE_URL_HERE&text=Check%20out%20this%20amazing%20product!" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="" class="nav-link">YouTube</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./javascript/product.js"></script> 
+<!-- image citation : https://www.ebay.com/itm/386206899321
+Code citation : https://github.com/MatijaLeljak/product-page/blob/master/index.html
+description : https://chat.openai.com/c/a8105374-7558-4f61-8d68-be3840a1e74b -->
