@@ -191,3 +191,21 @@ a {
     cursor: pointer;
     width: 35px;
 }
+
+.sorting-options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sorting-options label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.sorting-options select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
