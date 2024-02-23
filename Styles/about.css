@@ -30,7 +30,7 @@ header {
       margin-bottom: 500px;     
 }
 .hero-image {
-      background: url(/about-images/Header2.jpg) no-repeat center; 
+      background: url(../about-images/Header2.jpg) no-repeat center; 
       background-size: cover;
       height: 500px;
       position: relative;
