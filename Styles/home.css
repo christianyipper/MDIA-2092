@@ -24,6 +24,7 @@
 .main {
     height: 5rem;
     padding-top: 20rem;
+    padding-left: 60px;
     width: 100%;
     min-height: 45rem;
     background-image: url(../images/Home-img-01.jpg);
